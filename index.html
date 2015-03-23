@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <div class="aps_Wiz-container">
+        <form>
+            <h4>Enter name and time</h4>
+            <div class="form-group form-group-sm">
+                <label for="eventName">Event name</label>
+                <input type="text" class="form-control" id="eventName" placeholder="">
+            </div>
+
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Multiple sessions
+                </label>
+            </div>
+
+            <div class="form-group form-group-sm">
+                <label for="sessionName">Session name</label>
+                <input type="text" class="form-control" id="sessionName" placeholder="">
+            </div>
+
+            <div class="aps_Wiz-datetime aps_Wiz-datetime--sm">
+                <div class="form-group">
+                    <label for="startTime">Starts</label>
+                    <input type="text" class="form-control input-sm" id="startTime" placeholder="17-03-15">
+                </div>
+            </div>
+
+            <div class="aps_Wiz-datetime">
+                <div class="form-inline">
+                    <div class="form-group">
+                        <label for="time" class="aps_Wiz-datetime">at</label>
+                        <select class="form-control input-sm aps_Wiz-datetime">
+                            <option>08:00</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="aps_Wiz-datetime aps_Wiz-datetime--sm">
+                <div class="form-group">
+                    <label for="endTime">Ends</label>
+                    <input type="text" class="form-control input-sm" id="endTime" placeholder="18-03-15">
+                </div>
+            </div>
+
+
+            <div class="aps_Wiz-datetime">
+                <div class="form-inline">
+                    <div class="form-group form-group-sm">
+                        <label for="time" class="aps_Wiz-datetime">at</label>
+                        <select class="form-control input-sm aps_Wiz-datetime">
+                            <option>09:00</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <p><i>Get started by adding your first session. You may add additional sessions within the project.</i></p>
+
+            <button type="submit" class="btn btn-default pull-right">Next</button>
+        </form>
+
+        <br><br>
+
+        <form>
+            <h4>Enter sender details</h4>
+
+            <div class="form-group form-group-sm">
+                <label for="eventName">Sender name</label>
+                <input type="text" class="form-control" id="seenderName" placeholder="">
+            </div>
+
+            <div class="form-group form-group-sm">
+                <label for="eventName">Sender email</label>
+                <input type="text" class="form-control" id="senderEmail" placeholder="">
+            </div>
+
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Use sender email as reply-to email
+                </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary pull-right">Create</button>
+        </form>
+    </div>
+</body>
+</html>

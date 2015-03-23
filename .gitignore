@@ -1,0 +1,8 @@
+modules/*
+!modules/clone-all-modules.sh
+
+styleguide/
+
+node_modules/
+jspm_packages/
+docs/build/

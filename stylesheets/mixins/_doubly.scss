@@ -1,0 +1,6 @@
+@mixin doubly($margin) {
+  & + & {
+    margin-left: $margin;
+    @content;
+  }
+}

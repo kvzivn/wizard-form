@@ -1,0 +1,27 @@
+@import "mixins/doubly";
+
+.aps_Wiz-container {
+    width: 502px;
+    height: 665px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #EDEDED;
+
+    h4 {
+        text-align: center;
+    }
+
+}
+
+    .aps_Wiz-datetime {
+        display: inline-block;
+        @include doubly(10px);
+    }
+
+    .aps_Wiz-datetime--sm {
+        width: 104px;
+    }
+
+
